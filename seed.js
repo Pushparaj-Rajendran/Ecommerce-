@@ -1,0 +1,12 @@
+require("dotenv").config();
+const mongoose = require("mongoose");
+const { Product } = require("../backend/models/Product");
+const products = require("./sample-products.json");
+
+mongoose.connect(process.env.MONGO_URI)
+  .then(async () => {
+    await Product.deleteMany({});
+    await Product.insertMany(products);
+    console.log("Seeded products!");
+    process.exit();
+  });

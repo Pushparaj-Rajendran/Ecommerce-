@@ -1,0 +1,35 @@
+[
+  {
+    "name": "Elegant Saffron Saree",
+    "description": "A stunning saree for festive occasions, modeled by diverse Indian women.",
+    "category": "Women",
+    "imageUrl": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&w=800&q=80",
+    "altText": "Indian model in saffron saree",
+    "price": 3499,
+    "gst": 5,
+    "sizes": ["S", "M", "L", "XL"],
+    "colors": ["Saffron", "Gold"],
+    "brand": "Gupta Couture",
+    "rating": 4.8,
+    "stock": 50,
+    "model3dUrl": "",
+    "createdAt": "2025-08-08T00:00:00Z"
+  },
+  {
+    "name": "Indigo Kurta Set",
+    "description": "Classic kurta set for men, Indian model, rich indigo hues.",
+    "category": "Men",
+    "imageUrl": "https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?auto=format&fit=crop&w=800&q=80",
+    "altText": "Indian man in indigo kurta",
+    "price": 1999,
+    "gst": 5,
+    "sizes": ["M", "L", "XL", "XXL"],
+    "colors": ["Indigo", "White"],
+    "brand": "Singh Attire",
+    "rating": 4.5,
+    "stock": 40,
+    "model3dUrl": "",
+    "createdAt": "2025-08-08T00:00:00Z"
+  }
+  // ... Add 50+ more with diverse Indian models, body types, and categories!
+]

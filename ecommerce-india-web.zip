@@ -1,0 +1,33 @@
+You are an expert full-stack developer and SEO specialist building a world-class e-commerce platform. Create a complete, fully functional full-stack e-commerce website from scratch, tailored for an Indian-based fashion store specializing in women's wear, men's wear, kid's wear, and maternity wear. Use high-quality, diverse Indian models (e.g., representing various skin tones, ages, and body types) in all product images for authenticity and appeal. The site must be production-ready, secure, scalable, perfectly optimized for SEO, and fully mobile-friendly with responsive designs. Make it visually sexy and attractive—like a legendary world-class site (blending Myntra's Indian fashion vibe with Apple's sleek elegance and Gucci's luxurious allure)—featuring premium UI elements such as smooth 3D animations for product views, parallax scrolling, high-resolution imagery, subtle gradients, and a dark mode toggle.
+
+**Tech Stack Requirements:*
+- Frontend: React.js with Tailwind CSS for styling, React Router for navigation, Framer Motion for 2D animations, and React Three Fiber (integrated with Three.js) for 3D product animations (e.g., rotatable 3D models of clothing items).
+- Backend: Node.js with Express.js for the server, JWT for authentication, and Stripe integration for payments (configured for Indian rupees and local payment methods like UPI).
+- Database: MongoDB (using Mongoose ORM) for storing products, users, orders, and carts. Include full CRUD operations with Indian-specific fields (e.g., sizes in Indian standards, currency in INR).
+- Additional Tools: Integrate Redux for state management, Axios for API calls, Nodemailer for email notifications, and deployable on Vercel (frontend) and Render/Heroku (backend) with environment variables for security. Use Docker for containerization.
+- Image Handling: Instead of local source files, integrate a web scraping module or API (e.g., using Puppeteer or Unsplash API) to ethically fetch and display high-quality product images from online sources (focus on free, public-domain fashion images of perfect Indian models in the specified categories). Ensure dynamic loading and alt text for SEO.
+
+**Core Features and Functionality (Full E-Commerce Flow, Indian-Centric):**
+1. **User Authentication**: Secure registration, login/logout, password reset via email/SMS (with Indian phone number support), and role-based access (user, admin).
+2. **Product Catalog**: Dynamic listings categorized by women's wear, men's wear, kid's wear, and maternity wear. Include search/filter/sort (by price in INR, size, color, brand), pagination, and infinite scrolling. Each product page features details, 3D rotatable views (using React Three Fiber for interactive animations), reviews, ratings, and "add to cart" with size guides tailored to Indian standards.
+3. **Shopping Cart**: Add/remove items, quantity updates, persistent cart (saved to database), real-time totals with taxes (GST), shipping estimates (India-specific zones), and promo codes.
+4. **Checkout and Payments**: Multi-step checkout with Indian address forms (pin codes, states), order summary, and secure Stripe processing (support UPI, cards, net banking). Handle webhooks for confirmations.
+5. **User Profile**: Dashboard for order history, wishlists, profile editing (with Indian address fields), and review submission.
+6. **Admin Panel**: Secure dashboard for managing products (add/edit/delete with category-specific fields), orders, users, and analytics (e.g., sales by region in India).
+7. **Additional Features**: Wishlist, personalized recommendations (based on browsing history and Indian festivals/seasons), email/SMS notifications, real-time search suggestions, and integration with a mock Indian shipping API (e.g., simulating Delhivery).
+
+**SEO and Mobile Optimization:**
+- Perfect SEO: Implement server-side rendering (if using Next.js variant), meta tags (title, description, keywords focused on Indian fashion terms like "sarees," "kurta," "lehenga"), XML sitemaps, robots.txt, schema markup for products, fast loading (under 1 second on mobile), and Google Analytics integration.
+- Mobile-Friendly: Ensure 100% responsiveness with touch gestures, AMP support for product pages, and prioritized mobile performance (e.g., lazy loading for images and 3D elements).
+- 3D Animations: Add interactive 3D features like zoomable/rotatable clothing models on product pages, with fallbacks for low-end devices.
+
+**Design and UX Guidelines:**
+- Sexy and Attractive: Premium color scheme (e.g., vibrant Indian-inspired palettes like saffron and indigo with metallic accents), elegant typography, immersive hero sections with parallax and 3D effects. Use perfect models in scraped images to showcase clothing realistically.
+- Legendary Appeal: Fast, intuitive navigation (mega-menu for categories), personalized banners (e.g., festival sales), and buttery-smooth interactions with micro-animations.
+- Accessibility: WCAG compliance with ARIA labels, keyboard navigation, and alt text for all images/3D elements.
+
+**Output Format:**
+- Provide all source code in a structured ZIP-like folder format (directories: /frontend, /backend, /database, /scraping-module).
+- Include a README.md with setup instructions (e.g., npm install, database seeding with 50+ sample products using scraped images), environment variables, local run commands, and deployment guides.
+- Generate sample data (e.g., JSON for products in Indian categories) and ethical scraping guidelines.
+- After generating, self-review for bugs, SEO scores, mobile compatibility, and suggest scalability improvements. If unclear, ask for clarification.
